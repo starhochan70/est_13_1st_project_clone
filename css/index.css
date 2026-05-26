@@ -1704,3 +1704,20 @@ footer .container {
   display: block;
 }
 /* 컨텐츠6 - 김태현 */
+
+/* popup */
+.popup {
+  margin: auto !important; /* 전역 margin:0 속성을 무시하고 중앙 정렬 보장 */
+  padding: 20px 40px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  line-height: 3;
+  z-index: 9999;
+  border: 5px solid #3dd37b;
+  border-radius: 8px;
+}
+
+.popup a {
+  color: blue;
+  border: none;
+}
