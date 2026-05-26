@@ -1,0 +1,140 @@
+@import url("normalize.css");
+@import url("reset.css");
+
+:root {
+  /* 레이아웃 */
+  --base-unit: 24px;
+  --base-font: 16px;
+
+  /* Color styles */
+  --deep-green: rgba(27, 65, 55, 1);
+  --light-green: rgba(61, 211, 123, 1);
+  --navy: rgba(35, 46, 63, 1);
+  --white: rgba(255, 255, 255, 1);
+  --orange: rgba(254, 113, 2, 1);
+  --black: rgba(0, 0, 0, 1);
+  --grey-green: rgba(186, 204, 191, 1);
+  --background-grey: rgba(105, 115, 122, 1);
+  --alyac-green: rgba(5, 122, 9, 1);
+  --light-grey: rgba(250, 250, 250, 1);
+  --mint-green: rgba(194, 235, 221, 1);
+  --alyac-green-05: rgba(61, 211, 123, 0.5);
+  --stroke: rgba(186, 204, 191, 1);
+
+  /* 타이포그래피 */
+  --font-heading: "Do Hyeon", sans-serif;
+  --font-body: "Google Sans Flex", sans-serif;
+}
+
+/* 2. 타이포그래피 스타일 */
+
+/* 제목 (Do Hyeon) */
+.title-xl {
+  font-family: var(--font-heading);
+  font-size: 72px;
+  line-height: 1.73; /* 125/72 */
+}
+
+.title-l {
+  font-family: var(--font-heading);
+  font-size: 45px;
+  line-height: 1.6; /* 72/45 */
+}
+
+/* 부제목 및 본문 (Google Sans Flex) */
+.subtitle-regular {
+  font-family: var(--font-body);
+  font-weight: 400; /* Regular */
+  font-size: 28px;
+  line-height: 1.71; /* 48/28 */
+}
+
+.subtitle-bold {
+  font-family: var(--font-body);
+  font-weight: 700; /* Bold */
+  font-size: 20px;
+  line-height: 1.2; /* 24/20 */
+}
+
+.body-large-30 {
+  font-family: var(--font-body);
+  font-weight: 500; /* Medium */
+  font-size: 30px;
+  line-height: 1.6; /* 24/30 (피그마 수치 그대로 반영) */
+}
+
+.body-large-medium,
+.body-large-up {
+  font-family: var(--font-body);
+  font-weight: 500; /* Medium */
+  font-size: 20px;
+  line-height: 1.2; /* 24/20 */
+}
+
+.body-large-up {
+  text-transform: uppercase;
+}
+
+.body-large-bold {
+  font-family: var(--font-body);
+  font-weight: 700; /* Bold */
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.body-normal-medium {
+  flex: 1;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5; /* 24/16 */
+}
+
+.body-normal-regular {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.body-small-12 {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 2; /* 24/12 */
+}
+
+.caption-light {
+  font-family: var(--font-body);
+  font-weight: 300; /* Light */
+  font-size: 14px;
+  line-height: 1.71; /* 24/14 */
+}
+
+/* 레이아웃 */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  color: var(--black);
+}
+
+.section {
+  padding: calc(var(--base-unit) * 3) 0;
+}
+
+.hidden {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+/* 링크 버튼 */
+
+/* 콘텐츠1 - 이성희 */
+/* 콘텐츠2 - 멩예진 */
+/* 콘텐츠3 - 장진혁 */
+/* 콘텐츠4 - 주성문 */
+/* 콘텐츠5 - 최호찬 */
+/* 콘텐츠6 - 김태현 */

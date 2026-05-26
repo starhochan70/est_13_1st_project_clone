@@ -1,0 +1,42 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+.g-1 {
+  gap: var(--base-unit);
+}
+
+.g-2 {
+  gap: calc(var(--base-unit) * 2);
+}
+
+.g-harf {
+  gap: calc(var(--base-unit) / 2);
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
